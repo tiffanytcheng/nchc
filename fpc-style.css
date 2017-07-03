@@ -1,0 +1,184 @@
+.menu_container ul.main_menu li a, .top_menu_container ul.main_menu li a, .menu_container ul.top_menu li a, .top_menu_container ul.top_menu li a {  text-transform: none; font-weight: 400; }
+.teaser_box .figure > i, .teaser_box .figure > a i { line-height: 1em; }
+.menu_container ul.main_menu li.btn.btn-sm > a, .menu li.btn.btn-sm > a {  font-size: 100%; }
+.menu_container ul.main_menu li.btn.btn-sm.active > a {  color: #ffffff; }
+td {
+border-bottom: 1px solid #dddddd;
+    border-top: 0px solid #dddddd !important;
+}
+
+/* New styles added by Tiffany */
+
+.copyright {
+font-size: 13px !important;
+}
+
+.footer-link {
+color: #DBA213 !important;
+text-decoration: underline;
+font-size: 15px;
+}
+
+.footer-link a {
+color: #fff;
+text-decoration: underline;
+}
+
+.footer-text {
+font-size: 15px !important;
+margin-left: 18px;
+}
+
+.teaser_box .content .hgroup h4 {
+    font-size: 19px !important;
+    padding: 12px 0px;
+}
+
+.teaser_box .content .hgroup p {
+   font-size: 16px;
+}
+
+.btn-xs {
+  font-size: 14px !important;
+}
+
+.wpb_text_column .wpb_wrapper h1, .wpb_text_column .wpb_wrapper h2, .wpb_text_column .wpb_wrapper h3, .wpb_text_column .wpb_wrapper h4, .wpb_text_column .wpb_wrapper h5, .wpb_text_column .wpb_wrapper h6 {
+margin-top: 36px !important;
+margin-bottom: 14px !important;
+}
+
+/* Button styles */
+
+.btn-reqappt {
+    padding: 0 5px;
+    margin: 0 12px;
+    border-radius: 2px !important;
+    background-color: #9f495e !important;
+}
+
+.btn-reqappt a {
+    color: #ffffff !important;
+    text-transform: uppercase !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+.btn-reqappt a:hover {
+    text-decoration: underline !important;
+}
+
+.nf-field-element input {
+border: 1px solid #4c4943;
+}
+.nf-field-element textarea {
+border: 1px solid #4c4943;
+}
+.btn-submit {
+background-color: #66acc3;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 700;
+border: 0 !important;
+}
+
+.btn-submit:hover {
+background-color: #9f495e;
+}
+
+.field-wrap > div input, .field-wrap textarea, .field-wrap select, .field-wrap .pikaday__container, .field-wrap .pikaday__display, .field-wrap .listselect-wrap > div {
+padding: 8px;
+}
+
+p {
+padding: 8px 0px;
+}
+
+.head_panel .slider_wrapper .caption {
+top: 40% !important;
+}
+
+.white_section {
+color: #ffffff;
+}
+
+.white_section.transparent_film:before {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+ul#emma-form-elements .emma-form-input {
+padding: 6px;
+color: #35435e !important;
+}
+
+#emma-form input[type="submit"] {
+padding: 8px;
+text-transform: uppercase;
+font-size: 15px;
+}
+
+#emma-form input[type="submit"]:hover {
+background-color: #35435e;
+text-transform: uppercase;
+}
+
+.sidebarServices h3 {
+    color: #FFF;
+    font-size: 20px;
+    background-color: #66acc3;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+	margin-left: 40px;
+}
+.sidebarServiceslist {
+     margin-top: -10px;
+}
+.sidebarServiceslist ul {
+    margin-left: 40px;
+    line-height: 2.5rem;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+}
+.sidebarServiceslist li {
+    list-style: none;
+    text-decoration: underline;
+}
+.sidebarServiceslist a {
+    color: #4c4943;
+}
+.sidebarServicestxt {
+margin-top: -10px;
+}
+.sidebarServicestxt p {
+    margin-left: 40px;
+    line-height: 2.5rem;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    font-size: 15px;
+}
+.sidebarServicestxt a {
+   color: #66acc3;
+   text-transform: uppercase;
+   margin-top: 10px;
+}
+.menu_container ul.main_menu li ul.menu-dropdown {
+padding: 10px 0 !important;
+background-color: #4c4943 !important;
+border: 2px solid white !important;
+}
+.menu_container ul.main_menu li ul.menu-dropdown li a, .top_menu_container ul.top_menu li ul.menu-dropdown li a {
+    padding: 10px 20px;
+    color: #ffffff;
+}
+.menu_container ul.main_menu li ul.menu-dropdown li a:hover, .top_menu_container ul.top_menu li ul.menu-dropdown li a {
+    background-color: #66acc3;
+    color: #ffffff;
+}
+
+/* Mobile Styles */
+
+@media only screen and (min-width: 480px) {
+.caption .inner .t1 {
+    font-size: 54px !important;
+}
+}
