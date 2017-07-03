@@ -9,6 +9,19 @@ border-bottom: 1px solid #dddddd;
 
 /* New styles added by Tiffany */
 
+ul {
+padding-left: 5rem;
+}
+
+li {
+font-size: 1.6rem;
+line-height: 3rem;
+}
+
+.section_header {
+    margin: 0 0 20px 0 !important;
+}
+
 .copyright {
 font-size: 13px !important;
 }
