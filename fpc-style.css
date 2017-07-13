@@ -188,10 +188,103 @@ border: 2px solid white !important;
     color: #ffffff;
 }
 
+/* Testimonials */
+.testimonial li {
+    font-size: 16px;
+    line-height: 2.4rem;
+}
+
 /* Mobile Styles */
 
 @media only screen and (min-width: 480px) {
 .caption .inner .t1 {
     font-size: 54px !important;
+}
+}
+
+@media only screen and (max-width: 736px) {
+.homeDesc {
+   padding-top: 30px;
+   margin-left: 26px;
+}
+
+li.emma-form-row {
+   width: 100% !important;
+}
+
+ul#emma-form-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceBtn {
+   display: flex;
+   justify-content: center;
+}
+
+.apptBtn {
+   display: flex;
+   justify-content: center;
+}
+
+.pl_about_us_widget {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+   text-align: center;
+}
+
+.head_panel .owl-carousel .item {
+background-position: center right;
+}
+
+.head_panel .slider_wrapper .caption {
+    top: 50% !important;
+}
+
+.caption .inner .t1 {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.vc_custom_1495758682418 {
+   margin-top: 0 !important;
+}
+
+.vc_custom_1495035605991 {
+   padding-right: 0 !important;
+   padding-left: 0 !important;
+   background-color: #f7f7f7 !important;
+}
+
+.sidebar {
+   margin-right: 38px;
+}
+
+.vc_row .row {
+    margin-left: 12px;
+}
+
+.main > section {
+    margin-top: -64px;
+}
+
+.section_header h1, .section_header h2, .section_header h3, .section_header h4, .section_header h5, .section_header h6 {
+   margin-top: 16px;
+}
+
+.apptImg {
+   display: none;
+}
+
+.label-above .nf-field-element {
+   margin-bottom: 20px !important;
+}
+
+.contactForm {
+margin-top: 20px;
 }
 }
